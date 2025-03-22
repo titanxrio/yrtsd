@@ -86,7 +86,7 @@ def print_banner ():#line:100
     print ("~ Server:      discord.gg/shitty\n")#line:117
 def display_menu ():#line:120
     OOO0O0OOO00OOOOOO ={1 :{"desc":"$1,000 Storecard","bin":"60457811425","extra_digits":5 },2 :{"desc":"$2,000 Storecard","bin":"604578114","extra_digits":7 },3 :{"desc":"$5,000 Storecard","bin":"604578118","extra_digits":7 },4 :{"desc":"$10,000 Storecard","bin":"6045781123","extra_digits":6 }}#line:126
-    print (Fore .BLUE +"\nWähle deinen Titan-Storecard Typ:"+Style .RESET_ALL )#line:127
+    print (Fore .BLUE +"\nWähle die sc:"+Style .RESET_ALL )#line:127
     for OO0O0O0O000O0O0O0 ,O0O00O0O000O0O0O0 in OOO0O0OOO00OOOOOO .items ():#line:128
         print (Fore .MAGENTA +f"[ {OO0O0O0O000O0O0O0} ] "+Fore .YELLOW +f"{O0O00O0O000O0O0O0['desc']}"+Style .RESET_ALL )#line:129
     try :#line:130
