@@ -4,6 +4,7 @@ import time  # sleep before exit
 import binascii  # hex encoding
 import platform  # check platform
 import subprocess  # needed for mac device
+import qrcode
 from datetime import datetime, timezone, timedelta
 from discord_interactions import verify_key # used for signature verification
 from PIL import Image
