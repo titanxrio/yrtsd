@@ -90,17 +90,17 @@ def display_menu ():#line:120
     for OO0O0O0O000O0O0O0 ,O0O00O0O000O0O0O0 in OOO0O0OOO00OOOOOO .items ():#line:128
         print (Fore .MAGENTA +f"[ {OO0O0O0O000O0O0O0} ] "+Fore .YELLOW +f"{O0O00O0O000O0O0O0['desc']}"+Style .RESET_ALL )#line:129
     try :#line:130
-        OO00000O0O0OOOOO0 =int (input ("\n- Deine Titan Wahl: "))#line:131
+        OO00000O0O0OOOOO0 =int (input ("\n- option: "))#line:131
     except ValueError :#line:132
         print (Fore .RED +"Ungültige Eingabe!"+Style .RESET_ALL )#line:133
         return None ,None ,None #line:134
     if OO00000O0O0OOOOO0 not in OOO0O0OOO00OOOOOO :#line:136
-        print (Fore .RED +"Diese Option gibt es nicht!"+Style .RESET_ALL )#line:137
+        print (Fore .RED +"Diese Option exestiert nd"+Style .RESET_ALL )#line:137
         return None ,None ,None #line:138
     try :#line:140
         OOO0OO0O000O0OOOO =int (input ("- Wie viele Storecards generieren? "))#line:141
     except ValueError :#line:142
-        print (Fore .RED +"Bitte gib eine gültige Zahl ein!"+Style .RESET_ALL )#line:143
+        print (Fore .RED +"Bitte eine gültige zahl..."+Style .RESET_ALL )#line:143
         return None ,None ,None #line:144
     return OOO0O0OOO00OOOOOO [OO00000O0O0OOOOO0 ]["bin"],OOO0O0OOO00OOOOOO [OO00000O0O0OOOOO0 ]["extra_digits"],OOO0OO0O000O0OOOO #line:146
 def generate_cards (O00OOO00O00O00O00 ,OOO0OOO000OO0O000 ,OOOOO0000O0OO00OO ):#line:149
